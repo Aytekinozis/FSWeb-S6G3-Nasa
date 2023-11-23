@@ -5,6 +5,7 @@ import Main from "./components/Main.js";
 import Footer from "./components/Footer";
 import fakeData from "./fakeData";
 import axios from "axios";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const dateNow = new Date();

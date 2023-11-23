@@ -1,6 +1,7 @@
 import Image from "./Image";
 import "./Main.css";
 import Video from "./Video";
+import Description from "./Accordion";
 
 const Main = (props) => {
   const { data } = props;
@@ -17,7 +18,7 @@ const Main = (props) => {
         <p>{data.copyright}</p>
         <p>{data.date}</p>
       </div>
-      <p>{data.explanation}</p>
+      <Description data={data}></Description>
     </div>
   );
 };
